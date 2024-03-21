@@ -7,12 +7,5 @@
     ports: 
        - 8080:8080
     
-  frontendimg:  
-    build:  .
-    container_name: frontend
-    ports: 
-       - 80:80
-    depends_on:
-      - backendimg
-
+  
    
