@@ -6,11 +6,13 @@
     container_name : backend
     ports: 
        - 8080:8080
-    depends_on:
-      - frontendimg
+    
   frontendimg:  
     build:  /root/DockerImage_studentapp_threetier/Frontend/
     container_name: frontend
     ports: 
        - 80:80
+    depends_on:
+      - backendimg
+
    
