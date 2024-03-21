@@ -2,7 +2,7 @@
 
  services: 
    backendimg:
-    build: /root/DockerImage_studentapp_threetier/Backend/
+    build: .
     container_name : backend
     ports: 
        - 8080:8080
