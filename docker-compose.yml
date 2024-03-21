@@ -15,4 +15,4 @@
        - 80:80
     network_mode: bridge
     depends_on :
-      - frontendimg
+      - "frontendimg"
