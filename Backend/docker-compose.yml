@@ -8,7 +8,7 @@
        - 8080:8080
     
   frontendimg:  
-    build:  /root/DockerImage_studentapp_threetier/Frontend/
+    build:  .
     container_name: frontend
     ports: 
        - 80:80
