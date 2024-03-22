@@ -3,7 +3,7 @@
  services: 
 
   databaseimg:
-    build: ./database
+    build: /root/Studentapp-3tier-DockerImage/database
     environment:
       MYSQL_ROOT_PASSWORD: "1234"
       MYSQL_DATABASE: "studentapp"
